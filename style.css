@@ -11,3 +11,20 @@
   color: white;
 }
 
+@media only screen and (max-width: 1200px){
+  /*Tablets*/
+}
+@media only screen and (max-width: 600px){
+/*Phone*/
+}
+@media only screen and (max-width: 425px){
+/*Small phones*/
+}
+{
+  width: (50vw, 500px);
+}
+
+/* width: min(minimum value, preferred value);
+width: max(maximum value, preferred value);
+width: clamp(minimum value, preferred value , maximum value); */
+
