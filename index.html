@@ -48,15 +48,18 @@
 
         
         <!-- Mobile -->
-        <nav class="flex w-screen mobile navbar">
-            <div class="container mx-auto flex justify-around items-center w-screen">
+        <nav class="flex w-screen justify-between items-center mobile navbar">
+            <div class="container mx-auto flex justify-around items-center ">
                 <div class="my-2"><img src="/images/logo.png" width="150px"></div>
+            </div>
+            <div class="container mx-auto flex justify-self-end items-center">
+                <div class="my-2"><img src="/images/lines.png" width="40px" ></div>
             </div>
         </nav>
 
 
     <!-- Moto -->
-    <div class="h-screen w-screen flex justify-center items-center px-9 mb-10 sm:flex-col lg:flex-row" style="background-image: url('/images/banner.png')">
+    <div class="h-screen w-screen flex flex-col justify-center items-center px-9 mb-10 lg:flex-row" style="background-image: url('/images/banner.png')">
         <div >
             <img src="/images/edu.png" width="700px" class="education">
         </div>
@@ -69,67 +72,130 @@
 
 
     <!-- Trending Courses -->
-    <div>
-        <p class="text-center text-xl text-blue-400 font1 color1 font-bold">Trending Courses Now</p>
-        <div class="text-center m-5">carousel</div>
-    </div>
+        <!-- Desktop-->
+        <div class="desktop">
+            <p class="text-center text-xl text-blue-400 font1 color1 font-bold">Trending Courses Now</p>
+            <div class="text-center m-5">carousel</div>
+        </div>
+
+        <!-- Mobile -->
+        <div class="mobile flex-col">
+            <p class="text-center text-lg text-blue-400 font1 color1 font-bold">Trending Courses Now</p>
+            <div class="text-center m-5">carousel</div>
+        </div>
 
 
     <!-- Library -->
-    <div>
-        <p class="text-center text-xl text-blue-400 font1 color1 font-bold">Check Our Library</p>
-        <div class="text-center m-5">carousel</div>
-        <div class=" flex justify-center items-center w-screen">
-            <div class=" box-border shadow-lg bg-red-400 text-sm flex justify-center mb-8 items-center h-8 w-36 m-5 rounded-3xl py-2 font1" style="background-color: #F0542A;">
-                <a href="#" class="text-white font-black">See More</a>
+        <!-- Desktop-->
+        <div class="desktop">
+            <p class="text-center text-lg text-blue-400 font1 color1 font-bold">Check Our Library</p>
+            <div class="text-center m-5">carousel</div>
+            <div class=" flex justify-center items-center w-screen">
+                <div class=" box-border shadow-lg bg-red-400 text-sm flex justify-center mb-8 items-center h-8 w-36 m-5 rounded-3xl py-2 font1" style="background-color: #F0542A;">
+                    <a href="#" class="text-white font-black">See More</a>
+                </div>
             </div>
         </div>
-    </div>
+
+        <!-- Mobile -->
+        <div class="mobile flex-col">
+            <p class="text-center text-lg text-blue-400 font1 color1 font-bold">Check Our Library</p>
+            <div class="text-center m-5">carousel</div>
+            <div class=" flex justify-center items-center w-screen">
+                <div class=" box-border shadow-lg bg-red-400 text-xs flex justify-center mb-8 items-center h-6 w-20 m-5 rounded-3xl py-2 font1" style="background-color: #F0542A;">
+                    <a href="#" class="text-white font-black">See More</a>
+                </div>
+            </div>
+        </div>
 
 
     <!-- Nexus course -->
-    <div>
-        <p class="text-center text-xl text-blue-400 font1 color2 font-bold" >Grab Our Nexus Course</p>
-        <div class=" flex justify-center items-center w-screen m-2">
-            <div class=" box-border shadow-2xl border-white h-56 w-2/6 rounded-tl-3xl rounded-br-3xl "></div>
-        </div>
-        <div class=" flex justify-center items-center w-screen">
-            <div class=" box-border shadow-lg bg-red-400 text-sm flex justify-center items-center rounded-3xl h-8  w-36 py-2 font1 mb-8" style="background-color: #26D6E5;">
-                <a href="#" class="text-white font-black ">See More</a>
+        <!-- Desktop-->
+        <div class="desktop">
+            <p class="text-center text-xl text-blue-400 font1 color2 font-bold" >Grab Our Nexus Course</p>
+            <div class=" flex justify-center items-center w-screen m-2">
+                <div class=" box-border shadow-2xl border-white h-56 w-2/6 rounded-tl-3xl rounded-br-3xl "></div>
             </div>
-        </div>
+            <div class=" flex justify-center items-center w-screen">
+                <div class=" box-border shadow-lg bg-red-400 text-sm flex justify-center items-center rounded-3xl h-8  w-36 py-2 font1 mb-8" style="background-color: #26D6E5;">
+                    <a href="#" class="text-white font-black ">See More</a>
+                </div>
+            </div>
         
-    </div>
+        </div>
 
+        <!-- Mobile -->
+        <div class="mobile flex-col">
+            <p class="text-center text-lg text-blue-400 font1 color2 font-bold" >Grab Our Nexus Course</p>
+            <div class=" flex justify-center items-center w-screen m-2">
+                <div class=" box-border shadow-2xl border-white h-28 w-3/5 rounded-tl-3xl rounded-br-3xl "></div>
+            </div>
+            <div class=" flex justify-center items-center w-screen">
+                <div class=" box-border shadow-lg bg-red-400 text-xs flex justify-center items-center rounded-3xl h-6  w-20 py-2 font1 mb-8" style="background-color: #26D6E5;">
+                    <a href="#" class="text-white font-black ">See More</a>
+                </div>
+            </div>
+        
+        </div>
 
     <!-- Booth -->
-    <div>
-        <p class="text-center text-2xl text-blue-400 m-0 font1 color1 font-bold" >Find Our LearniPi Booth Now</p>
-        <div class="w-screen flex justify-center m-2">
-            <div style="background-image: url('../images/image.png')" class="h-60 w-1/2"></div>
-        </div>
-        <div class=" flex justify-center items-center w-screen">
-            <div class=" box-border shadow-lg bg-red-400 text-sm flex justify-center items-center rounded-3xl h-8 w-36  font1 mb-10" style="background-color:#F0542A;">
-                <a href="#" class="text-white font-black">See More</a>
+        <!-- Desktop-->
+        <div class="desktop">
+            <p class="text-center text-2xl text-blue-400 m-0 font1 color1 font-bold" >Find Our LearniPi Booth Now</p>
+            <div class="w-screen flex justify-center m-2">
+                <div style="background-image: url('../images/image.png')" class="h-60 w-1/2"></div>
+            </div>
+            <div class=" flex justify-center items-center w-screen">
+                <div class=" box-border shadow-lg bg-red-400 text-sm flex justify-center items-center rounded-3xl h-8 w-32  font1 mb-10" style="background-color:#F0542A;">
+                    <a href="#" class="text-white font-black">See More</a>
+                </div>
             </div>
         </div>
-    </div>
+
+        <!-- Mobile -->
+        <div class="mobile flex-col">
+            <p class="text-center text-sm text-blue-400 m-0 font1 color1 font-bold" >Find Our LearniPi Booth Now</p>
+            <div class="w-screen flex justify-center m-2">
+                <div style="background-image: url('../images/image.png')" class="h-32 w-3/5"></div>
+            </div>
+            <div class=" flex justify-center items-center w-screen">
+                <div class=" box-border shadow-lg bg-red-400 text-xs flex justify-center items-center rounded-3xl h-6 w-20 font1 mb-10" style="background-color:#F0542A;">
+                    <a href="#" class="text-white font-black">See More</a>
+                </div>
+            </div>
+        </div>
 
 
     <!-- Footer -->
-    <footer>
-        <hr>
-        <div class="flex">
-            <div class="my-2 ml-2"><img src="/images/main.svg" width="150px"></div>
-            <div class=" flex justify-end items-center w-screen">
-                <a class="link mx-10 text-lg font1 font-black" href="#">Contract Us</a>
-                <a class="link mx-10 text-lg font1 font-black" href="#">About Us</a>
+        <!-- Desktop -->
+        <footer class="desktop">
+            <hr>
+            <div class="flex">
+                <div class="my-2 ml-2"><img src="/images/main.svg" width="150px"></div>
+                <div class=" flex justify-end items-center w-screen">
+                    <a class="link mx-10 text-lg font1 font-black" href="#">Contract Us</a>
+                    <a class="link mx-10 text-lg font1 font-black" href="#">About Us</a>
+                </div>
             </div>
-        </div>
-        <div class="m-5">
-            <a href="#"><img src="https://img.icons8.com/fluency/30/000000/facebook-circled.png"/></a>
-        </div>
-    </footer>
+            <div class="m-5">
+                <a href="#"><img src="https://img.icons8.com/fluency/30/000000/facebook-circled.png"/></a>
+            </div>
+        </footer>
+
+        <!-- Mobile -->
+        <footer class="mobile">
+            <hr>
+            <div class="flex ">
+                <div class="m-3"><img src="/images/main.svg" width="100px"></div>
+                <div class=" flex justify-end items-center w-screen">
+                    <a class="link  text-xs font1 font-black mx-2" href="#">Contract Us</a>
+                    <a class="link  text-xs font1 font-black mr-2" href="#">About Us</a>
+                </div>
+            </div>
+            <div class="m-5">
+                <a href="#"><img src="https://img.icons8.com/fluency/30/000000/facebook-circled.png"/></a>
+            </div>
+        </footer>
 
 </body>
 </html>
