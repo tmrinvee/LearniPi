@@ -16,16 +16,25 @@
 .desktop{
   display: flex;
 }
+.desktop2{
+  display: block;
+}
 
 @media only screen and (max-width: 1200px){
   /*Tablets*/
 }
 @media only screen and (max-width: 600px){
+  *{
+    overflow-x: hidden;
+  }
 .mobile{
   display: flex;
 
 }
 .desktop{
+  display: none;
+}
+.desktop2{
   display: none;
 }
 }
@@ -38,7 +47,13 @@
   display: none;
   
 }
+.desktop2{
+  display: none;
 }
+
+
+}
+
 
 /* width: min(minimum value, preferred value);
 width: max(maximum value, preferred value);
