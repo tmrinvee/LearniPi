@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.15/tailwind.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        .color1{
+            color: #6100FF
+        }
+        .color2{
+            color: #1B1B2F
+        }
+        .font1{
+            font-family: 'Baloo Da 2', cursive;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex">
+        <div class="box-border border-none w-1/5 py-5" style="background-color: #6100FF;"></div>
+        <div class="box-border border-none w-4/5 py-5 shadow-md"></div>
+    </div>
+    
+    <div class="flex">
+
+        <div class="box-border border-none w-1/5 h-screen justify-center" style="background-color: #1B1B2F;">
+            <a src="#" class="font1 text-white text-lg px-2"> <h3 class="text-center">Video Courses</h3></a>
+        </div>
+
+        <div class="flex-col justify-between items-start"> 
+            <div class="flex justify-between " style="width: 77vw;">
+                <div class="text-center p-4 mt-3 font1 font-semibold text-lg">Video Details</div>
+                <div>
+                    <button class="py-1 px-4 mt-5 text-white text-xs font1 m-2" style="background-color: #6100FF;">Save</button>
+                    <button class="py-1 px-4 mt-5 text-white text-xs font1 m-2" style="background-color: #6100FF;">Add Course</button>
+                </div>
+            </div>
+
+            <div class="w-4/5">
+
+                <div class="box-border border-none w-7 h-10 ml-5 mt-2 flex justify-between items-center shadow-lg" style="width: 77vw; background-color: #1B1B2F;">
+                    
+                    <div class="flex justify-between items-center">
+                        <div class="text-white mx-3 font1 text-lg">Class</div>
+                        <div class="text-white mx-28 font1 text-lg">Section Names</div>
+                    </div>
+                    
+                    <div class="flex justify-between items-center">
+                        <div class="text-white mx-3 font1 text-xs">Edit</div>
+                        <div class="text-white mx-4 font1 text-xs">Delete</div>
+                    </div>
+                </div>
+                
+                <div class="box-border border-none w-7 h-10 ml-5 mt-8 flex justify-between items-center" style="width: 77vw; background-color: #1B1B2F">
+                    <div class="flex justify-between items-center">
+                        <div class="text-white mx-3 font1 text-sm font-extralight">Class-1</div>
+                        <div class="text-white mx-28 font1 text-sm font-extralight">Section</div>
+                    </div>
+
+                    <div class="flex justify-between items-center">
+
+                        <div class="flex justify-between items-center">
+                            <img src="/images/add.png" class="w-4 h-4 m-1">
+                            <div class="text-white font1 text-xs mr-6">Add Class</div>
+                        </div>
+
+                        <div class="flex justify-between items-center">
+                            <img src="/images/edit.png" class="w-4 h-4 ml-8">
+                            <img src="/images/delete.png" class="w-16 h-8 mx-1">
+                        </div>
+                
+                    </div>
+
+                </div>
+
+
+
+                
+                <div class="flex">
+
+                    <div class="box-border border-none w-7 h-6 ml-5 mt-1 flex justify-between items-center justify-self-end -inset-x-0" style="width: 67vw; background-color: #1B1B2F">
+                        <div class="flex items-center">
+                            <div class="text-white font1 font-extralight text-xs mx-3">Intro1</div>
+                            <div class="text-white font1 font-extralight text-xs mx-10">Topic Name</div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="text-white mx-10 font1 font-extralight text-xs">Time</div>
+                            <img src="/images/edit.png" class="w-4 h-4 ml-8">
+                            <img src="/images/delete.png" class="w-16 h-8 mx-1">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="flex ">
+
+                    <div class="box-border border-none w-7 h-6 ml-5 mt-2 flex justify-between items-center justify-self-end " style="width: 67vw; background-color: #1B1B2F">
+                        <div class="flex items-center">
+                            <div class="text-white font1 font-extralight text-xs mx-3">Intro1</div>
+                            <div class="text-white font1 font-extralight text-xs mx-10">Topic Name</div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="text-white mx-10 font1 font-extralight text-xs">Time</div>
+                            <img src="/images/edit.png" class="w-4 h-4 ml-8">
+                            <img src="/images/delete.png" class="w-16 h-8 mx-1">
+                        </div>
+
+                    </div>
+                </div>
+                
+
+                
+                
+                <div class="box-border border-none w-7 h-10 ml-5 mt-5 flex justify-between items-center" style="width: 77vw; background-color: #1B1B2F">
+                    <div class="flex justify-between items-center">
+                        <div class="text-white mx-3 font1 text-sm font-extralight">Class-2</div>
+                        <div class="text-white mx-28 font1 text-sm font-extralight">Section</div>
+                    </div>
+
+                    <div class="flex justify-between items-center">
+
+                        <div class="flex justify-between items-center">
+                            <img src="/images/add.png" class="w-4 h-4 m-1">
+                            <div class="text-white font1 text-xs mr-6">Add Class</div>
+                        </div>
+
+                        <div class="flex justify-between items-center">
+                            <img src="/images/edit.png" class="w-4 h-4 ">
+                            <img src="/images/delete.png" class="w-16 h-8 mx-1">
+                        </div>
+                
+                    </div>
+            </div>
+        </div>
+        
+        
+    </div>
+    
+
+    
+</body>
+</html>

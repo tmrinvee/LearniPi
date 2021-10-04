@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.15/tailwind.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        .color1{
+            color: #6100FF
+        }
+        .color2{
+            color: #1B1B2F
+        }
+        .font1{
+            font-family: 'Baloo Da 2', cursive;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex">
+        <div class="box-border border-none w-1/5 py-5" style="background-color: #6100FF;"></div>
+        <div class="box-border border-none w-4/5 py-5 shadow-md"></div>
+    </div>
+    
+    <div class="flex">
+
+        <div class="box-border border-none w-1/5 h-screen justify-center" style="background-color: #1B1B2F;">
+            <a src="#" class="font1 text-white text-lg px-2"> <h3 class="text-center">Video Courses</h3></a>
+        </div>
+
+        <div class="flex-col justify-between items-start"> 
+            <div class="flex justify-between " style="width: 77vw;">
+                <div class="text-center p-4 mt-3 font1 font-semibold text-lg">Courses</div>
+                <div>
+                    <button class="py-1 px-4 mt-5 text-white text-xs font1" style="background-color: #6100FF;">Add Course</button>
+                </div>
+            </div>
+
+            <div class="w-4/5">
+                <div class="box-border border-none w-7 h-10 shadow-lg ml-5 flex justify-between items-center" style="width: 77vw;">
+                    <div class="font1 text-sm mx-4">Course Name</div>
+                    <div class="font1 text-sm mx-4">Types</div>
+                </div>
+
+                <div class="box-border border-none w-7 h-10 shadow-lg ml-5 mt-2" style="width: 77vw;"></div>
+                <div class="box-border border-none w-7 h-10 shadow-lg ml-5 mt-2" style="width: 77vw;"></div>
+            </div>
+        </div>
+        
+        
+    </div>
+    
+
+    
+</body>
+</html>
