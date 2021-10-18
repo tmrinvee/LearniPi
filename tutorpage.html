@@ -19,7 +19,6 @@
         }
         .button_bg{
             background-color: #F62727;
-
         }
         .color1{
             color: #F2CB8C;
@@ -32,7 +31,7 @@
 
     
     <!--Title Start-->
-    <div class="bg1 font1">
+    <div class="bg1 font1 desktop2">
         <div class="text-white px-20 pt-10 text-4xl font-semibold">Applied Logic (Level 2)</div>
         <div class="text-white px-20  text-lg pt-3 font-normal">CCompTIA Network+ (N10-008) Bootcamp - Certification preparation course</div>
         <div class="px-20 flex color1 pt-2">
@@ -78,30 +77,74 @@
 
 
     <!--Column Start-->
-    <div class="flex justify-between font1">
+    <div class="flex flex-col lg:flex-row lg:justify-between font1">
 
 
 
         <!--Left Column Start-->
-        <div class="box-border border-none w-2/5 shadow-lg ml-8 -mt-5 h-full">
+        <div class="box-border border-none lg:w-2/5 w-full shadow-lg lg:ml-8 -mt-5 lg:h-full">
             <div>
-                <video class="lg:h-56 w-full" controls >
+                <video class="h-56 w-full" controls >
                     <source src="video.mp4" type="video/mp4">
                 </video>
             </div>
+
+
+
+
+            <!--Mobile Title Start-->
+            <div class="flex flex-col bg1 font1 mobile w-screen">
+                <div class="text-white pt-5 text-2xl font-semibold px-2">Applied Logic (Level 2)</div>
+                <div class="text-white text-md pt-1 font-normal px-2 py-2">CCompTIA Network+ (N10-008) Bootcamp - Certification preparation course</div>
+                <div class="flex color1 pt-2 px-2">
+                    <p class="text-lg -mt-1 m-1">4.5</p>
+                    <span class="material-icons-outlined ">
+                        star
+                    </span>
+                    <span class="material-icons-outlined">
+                        star
+                    </span>
+                    <span class="material-icons-outlined">
+                        star
+                    </span>
+                    <span class="material-icons-outlined">
+                        star
+                    </span>
+                    <span class="material-icons-outlined">
+                        star_half
+                    </span>
+                </div>
+        
+        
+                <div class="flex text-white text-sm px-2">
+                    <p>Created by</p>
+                    <a href="#" class="ml-1"><u>Moinul Islam</u></a>
+                </div>
+        
+                <!-- Social media links start -->
+                <div class="flex justify-end items-end pt-5 pb-1 pr-1">
+                    <a href="#"><img src="images/fbicon.png"class="h-5 w-5 ml-1" ></a>
+                    <a href="#"><img src="images/instaicon.png" class="h-5 w-5 ml-1" ></a>
+                    <a href="#"><img src="images/youtubeicon.png" class="h-5 w-5 ml-1" ></a>
+                    <a href="#"><img src="images/twittericon.png" class="h-5 w-5 ml-1"></a>
+                </div>
+                <!-- Social media links end -->
+                
+            </div>
+            <!--Mobile Title End-->
 
             
             
             
             <div class="flex justify-around items-center pt-5 pb-10">
 
-                <img src="images/image.png" class="h-14 w-16 rounded-lg ml-5 ml-12">
+                <img src="images/image.png" class="h-14 w-16 rounded-lg lg:ml-5 ml-5 lg:ml-12">
                 
-                <p class="text-center mr-16 text-md">233 <br> students</p>
+                <p class="text-center lg:mr-16 mr-10 text-sm">233 <br/> students</p>
     
                 <img src="images/image.png" class="h-14 w-16 rounded-lg">
                 
-                <p class="mr-16 text-lg">12h</p>
+                <p class="lg:mr-16 mr-5 text-md">12h</p>
                 
                 
             </div>
@@ -143,7 +186,7 @@
 
 
             <div class="pb-20 flex justify-center items-center">
-                <button class="button_bg text-white text-xl text-center px-16 py-1 shadow-xl rounded-full">Add to cart</button>
+                <button class="button_bg text-white lg:text-xl text-lg text-center lg:px-16 px-12 py-1 shadow-xl rounded-full">Add to cart</button>
             </div>
 
         </div>
@@ -154,18 +197,18 @@
 
         
         <!--Right Column Start-->
-        <div class="box-border border-none w-3/5 shadow-lg ml-4 mt-3 mr-8 h-full pb-16">
+        <div class="box-border border-none lg:w-3/5 w-full shadow-lg lg:ml-4 lg:mt-3 lg:mr-8 h-full pb-16">
            
            
            
             <div class="flex">
-                <div class="w-36">
-                    <img src="images/image.png" class="rounded-full h-28 w-28 p-5">
+                <div class="lg:w-36 w-40 flex justify-center items-center">
+                    <img src="images/image.png" class="rounded-full lg:h-28 h-24 lg:w-28  w-24 p-5">
                 </div>
 
                 <div class="pt-5">
-                    <p class="font-bold text-lg">Instructor Name </p>
-                    <p class="text-sm font-light">MS (Physics), University of Michigan; BSc, MSc (English),<br> University of Barishal; IELTS: 8.7</p>
+                    <p class="lg:font-bold font-semibold text-lg">Instructor Name </p>
+                    <p class="lg:text-lg text-xs font-light mr-5">MS (Physics), University of Michigan; BSc, MSc (English),<br> University of Barishal; IELTS: 8.7</p>
                 </div>
             </div>
 
